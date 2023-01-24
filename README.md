@@ -6,7 +6,7 @@ This repository contains the codes to assess the ability of B-PINNs in modeling 
 
 - Spring Mass Damper System
 
-- 1D Steady State Equation 
+- 1D Steady State Heat Equation 
 
 Different Measurement Noise Levels used in the training data.
 
