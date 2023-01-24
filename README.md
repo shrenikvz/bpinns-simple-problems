@@ -1,9 +1,22 @@
 # Bayesian Physics Informed Neural Networks (BPINNs)
 
-This repo contains the implementation of B-PINNs on toy problems.
+This repository contains the codes to assess the ability of B-PINNs in modeling some toy problems using noisy data.
 
-## Toy problems
+## Toy problems considered
 
-1. Spring Mass Damper System
-2. 1D Poisson Equation
-3. Van der Pol oscillator
+- Spring Mass Damper System
+
+- 1D Steady State Equation 
+
+Different Measurement Noise Levels used in the training data.
+
+- No Noise
+
+- Low Noise (S: 0.001, $\omega_\text{cut,in}$: 3.14 rad/s, $\omega_\text{cut,off}$: 50 rad/s)
+
+- High Noise (S: 0.01, $\omega_\text{cut,in}$: 3.14 rad/s, $\omega_\text{cut,off}$: 50 rad/s)
+
+
+
+
+
